@@ -43,6 +43,25 @@
         <td>No</td>
       </tr>
     </table>
+    <h2>Agregar estudios</h2>
+    <form name="estudios" autocomplete="on">
+      <b><label for="anio">Año: </label></b>
+      <select name="anio">
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+      </select><br><br>
+      <b><label for="inst">Institución: </label></b>
+      <input type="text" name="inst" required><br><br>
+      <b><label for="place">Lugar: </label></b>
+      <textarea name="place" rows="5" cols="50"></textarea><br><br>
+      <b><label for="yn">¿Culminó?</label></b>
+      <input type="radio" name="yn">Sí
+      <input type="radio" name="yn">No<br><br>
+      <input type="submit">
+    </form>
   </body>
   <footer>
     <br><br>
